@@ -74,11 +74,11 @@ const Home: NextPage = () => {
             onSubmit={handelSubmit}
             className="absolute top-1/2 bottom-1/2 -translate-y-1/2 flex flex-col justify-around items-center bg-white rounded-xl py-4 px-8 h-80 w-4/5 max-w-sm"
           >
-            <NameInput ref={snameRef} value="Dein Name" />
+            <NameInput ref={snameRef} value="Your name" />
             <HeartButton />
             <NameInput
               ref={fnameRef}
-              value="Sein/Ihr Name"
+              value="His/Her name"
               className="text-end "
             />
           </form>

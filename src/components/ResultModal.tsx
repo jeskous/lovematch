@@ -48,7 +48,7 @@ export default function ResultModal({
         </p>
       </div>
       <button type="submit" className="btn btn-outline w-full font-normal">
-        Nochmal
+        again
       </button>
     </form>
   );
