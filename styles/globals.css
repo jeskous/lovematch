@@ -7,6 +7,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Dosis', sans-serif;
+  background: linear-gradient(186.97deg, #feb5ff 41.81%, #ffc591 95.35%);
 }
 
 a {
@@ -16,14 +17,4 @@ a {
 
 * {
   box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
 }
