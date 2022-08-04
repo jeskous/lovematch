@@ -1,6 +1,6 @@
 export default function HeartButton() {
   return (
-    <button type="submit">
+    <button type="submit" tabIndex={3}>
       <svg
         id="Layer_1"
         data-name="Layer 1"
