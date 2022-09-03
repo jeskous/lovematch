@@ -61,7 +61,7 @@ const Home: NextPage = () => {
       {/* CONTENT */}
       <main className="w-screen h-screen flex items-center flex-col">
         <h1 className="mt-16 text-5xl uppercase font-semibold tracking-wide text-white">
-          Love Match test
+          Love Match
         </h1>
         {resultVisible ? (
           <ResultModal
